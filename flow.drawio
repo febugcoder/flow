@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T09:34:18.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="p8hFuyVBdXyveqcoIi_p" version="13.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T03:02:53.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="tDQ6z3m-iwHd1ASbI0JU" version="13.8.3" type="github">
   <diagram id="jeHmpw0TtRaYDynAjy10" name="Page-1">
     <mxGraphModel dx="1298" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -113,6 +113,36 @@
         </mxCell>
         <mxCell id="3LTDyEU9GOF3wHU3nfaB-11" value="借助易协作api，实现类似根据单子状&lt;br&gt;态增删、上下车feature分支等操作，拓&lt;br&gt;展起来会非常丰富。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3LTDyEU9GOF3wHU3nfaB-10">
           <mxGeometry x="10" y="40" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-14" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 16px&quot;&gt;&lt;b&gt;if (toggleA) {&lt;br&gt;&lt;/b&gt;&lt;b&gt;&amp;nbsp; showA New&lt;br&gt;&lt;/b&gt;&lt;b&gt;} else {&lt;br&gt;&lt;/b&gt;&lt;b&gt;&amp;nbsp; showA Old&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;}&lt;/b&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1380" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-16" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1370" width="75" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3LTDyEU9GOF3wHU3nfaB-14" target="3LTDyEU9GOF3wHU3nfaB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-18" value="A New" style="swimlane;fontSize=14;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1320" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-19" value="&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;新页面/功能&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3LTDyEU9GOF3wHU3nfaB-18">
+          <mxGeometry x="15" y="50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-20" value="A Old" style="swimlane;fontSize=14;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1460" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-21" value="&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;旧页面/功能&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3LTDyEU9GOF3wHU3nfaB-20">
+          <mxGeometry x="17.5" y="50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="3LTDyEU9GOF3wHU3nfaB-40" target="3LTDyEU9GOF3wHU3nfaB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-40" value="Toggle Config" style="swimlane;fontSize=14;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1380" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3LTDyEU9GOF3wHU3nfaB-41" value="&lt;span style=&quot;font-size: 16px ; font-weight: 700 ; text-align: left&quot;&gt;toggleA: Boolean&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px ; font-weight: 700 ; text-align: left&quot;&gt;toggleB: Boolean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px ; font-weight: 700 ; text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px ; font-weight: 700 ; text-align: left&quot;&gt;toggleC: Boolean&lt;/span&gt;&lt;span style=&quot;font-size: 16px ; font-weight: 700 ; text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3LTDyEU9GOF3wHU3nfaB-40">
+          <mxGeometry y="40" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
